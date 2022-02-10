@@ -41,7 +41,9 @@ Spams leads to delay of payments
 
 # OPPORTUNITIES
 
-Improving Awareness
+Mobile services
+
+Cloud computing
 
 Expanding the Products
 
@@ -55,3 +57,12 @@ Cyber attack
 
 # 4W's & 1H
 
+what : Customer Billing System
+
+where : Used in Departmental stores, shops
+
+when : Used for billing
+
+why : For easy and faster billing
+
+How : Operates by user inputs.

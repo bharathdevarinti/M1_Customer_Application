@@ -5,7 +5,7 @@ The source code of Customer Billing System Project in C has been written in C pr
 
 I have added Add customer details, View existing customer details in the code etc.
 
-# Requirements :-
+## Requirements :-
 # High Level Requirements 
 It can hold many number of accounts and account can be added to the program at any time.
 

@@ -5,6 +5,10 @@ The source code of Customer Billing System Project in C has been written in C pr
 
 I have added Add customer details, View existing customer details in the code etc.
 
+## Research :-
+
+Customer Billing System Project is a simple console application designed to demonstrate the practical use of C programming language and its features as wells as to generate an application which can be used in any departmental store, shops, cafes etc. for billing to the customer.
+
 ## Requirements :-
 # High Level Requirements 
 

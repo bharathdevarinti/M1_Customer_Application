@@ -7,6 +7,8 @@ Strucural
 ![image](https://user-images.githubusercontent.com/83062061/152716198-934a91dc-4b64-40b3-aa5a-03b1601ae4f6.png)
 
 
+![image](https://user-images.githubusercontent.com/83062061/152716017-ffce6420-1df9-49bc-b7b4-879ab8a15af9.png)
+
 Behavioural
 
     Flowcharts
@@ -24,6 +26,5 @@ Behavioural
 ![image](https://user-images.githubusercontent.com/83062061/152715749-957e2130-8ec6-4c9b-9e78-d98b6af667a8.png)
 
 
-![image](https://user-images.githubusercontent.com/83062061/152716017-ffce6420-1df9-49bc-b7b4-879ab8a15af9.png)
 
 

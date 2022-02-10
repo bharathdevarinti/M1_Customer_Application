@@ -1,6 +1,6 @@
 # Architecture
 
-# Design
+## Design
 
 Strucural
 

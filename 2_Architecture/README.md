@@ -13,7 +13,6 @@ Behavioural
 
     Flowcharts
 
-![image](https://user-images.githubusercontent.com/83062061/152715210-f77fe63c-8dd7-4929-8b32-84e2137b6f93.png)
 
 
 ![image](https://user-images.githubusercontent.com/83062061/152715347-b757a756-f6c3-46c9-8b7b-92e3af0484f9.png)

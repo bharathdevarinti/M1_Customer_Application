@@ -9,7 +9,7 @@
  * 
  */
 
-#include<stdio.h>
+ #include<stdio.h>
  #include<stdlib.h>
  #include<string.h>
 
@@ -19,8 +19,8 @@
  void output();
 
  struct date{
-	   int month;
 	   int day;
+	   int month;
 	   int year;
 	   };
 
@@ -32,7 +32,7 @@
 	char street[100];
 	char city[100];
 	char acct_type;
-	float oldbalance;
+	float duebalance;
 	float newbalance;
 	float payment;
 	struct date lastpayment;
@@ -63,10 +63,10 @@
 			for(i=0;i<n;i++){
 				input();
 				if(customer.payment>0)
-					customer.acct_type=(customer.payment<0.1*customer.oldbalance)? 'O': 'D';
+					customer.acct_type=(customer.payment<0.1*customer.duebalance)? 'O': 'D';
 				else
-					customer.acct_type=(customer.oldbalance>0)?'D' : 'C';
-				customer.newbalance=customer.oldbalance - customer.payment;
+					customer.acct_type=(customer.duebalance>0)?'D' : 'C';
+				customer.newbalance=customer.duebalance - customer.payment;
 				writefile();
 			}
 			main();
@@ -113,11 +113,11 @@
 	  printf("         City:");
 	  scanf("%s",customer.city);
 	  printf("         Previous balance:");
-	  scanf("%f",&customer.oldbalance);
+	  scanf("%f",&customer.duebalance);
 	  printf("         Current payment:");
 	  scanf("%f",&customer.payment);
 	  printf("         Payment date(mm/dd/yyyy):");
-	  scanf("%d/%d/%d",&customer.lastpayment.month,&customer.lastpayment.day,&customer.lastpayment.year);
+	  scanf("%d/%d/%d",&customer.lastpayment.day,&customer.lastpayment.month,&customer.lastpayment.year);
 	  return;
    }
 
@@ -204,7 +204,7 @@
 	   printf("    Account number :%d\n",customer.acct_no);
 	   printf("    Street         :%s\n",customer.street);
 	   printf("    City           :%s\n",customer.city);
-	   printf("    Old balance    :%.2f\n",customer.oldbalance);
+	   printf("    Old balance    :%.2f\n",customer.duebalance);
 	   printf("    Current payment:%.2f\n",customer.payment);
 	   printf("    New balance    :%.2f\n",customer.newbalance);
 	   printf("    Payment date   :%d/%d/%d\n\n",customer.lastpayment.month,customer.lastpayment.day,customer.lastpayment.year);

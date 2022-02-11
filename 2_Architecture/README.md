@@ -22,8 +22,3 @@ Behavioural
 ![image](https://user-images.githubusercontent.com/83062061/152715643-ddb5ac53-d400-40ff-ac0e-75d2b8f8c22f.png)
 
 
-![image](https://user-images.githubusercontent.com/83062061/152715749-957e2130-8ec6-4c9b-9e78-d98b6af667a8.png)
-
-
-
-

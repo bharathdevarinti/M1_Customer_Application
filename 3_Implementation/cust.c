@@ -45,14 +45,14 @@
 	  system("cls");
 
 
-	  printf("   BILLING SYSTEM, Radisson Blu   \n\n");
+	  printf(" Customer BILLING SYSTEM   \n\n");
 	  printf("===============================\n");
 	  printf("\n1:Add account on list\n");
 	  printf("2:Search customer account\n");
 	  printf("3:Exit\n");
 	  printf("\n================================\n");
 	  do{
-	       printf("\nSelect what do you want to do?");
+	       printf("\nSelect an option?");
 	       ch=getchar();
 	  }while(ch<='0' || ch>'3');
 	  switch(ch){

@@ -1,4 +1,3 @@
-
 # Add the certificates in this folder
 
 Sololearn Certificate for Basics of C Programming.

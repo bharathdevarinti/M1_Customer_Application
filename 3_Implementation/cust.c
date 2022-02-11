@@ -45,7 +45,7 @@
 	  system("cls");
 
 
-	  printf("   BILLING SYSTEM, Radisson Blu   \n\n");
+	  printf("   BILLING SYSTEM   \n\n");
 	  printf("===============================\n");
 	  printf("\n1:Add account on list\n");
 	  printf("2:Search customer account\n");

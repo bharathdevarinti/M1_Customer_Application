@@ -47,7 +47,7 @@
 	  system("cls");
 
 
-	  printf(" Customer BILLING SYSTEM   \n\n");
+	  printf(" CUSTOMER BILLING SYSTEM   \n\n");
 	  printf("===============================\n");
 	  printf("\n1:Add account on list\n");
 	  printf("2:Search customer account\n");

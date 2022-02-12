@@ -9,22 +9,22 @@
 void payment()
 {
 	FILE *f;
-	char phonenumber[20];
+	char mobilenumber[20];
 	long int size=sizeof(s);
 	float amt;
 	int i;
 	if((f=fopen("c:/file.ojs","rb+"))==NULL)
 		exit(0);
 	system("cls");
-	printf("Enter phone number of the customer for payment");
-	scanf("%4[^\n]",phonenumber);
+	printf("Enter mobile number of the customer for payment");
+	scanf("%4[^\n]",mobilenumber);
 	
 	while(fread(&s,sizeof(s),1,f)==1)
 	{
-		if(strcmp(s.phonenumber,phonenumber)==0)
+		if(strcmp(s.mobilenumber,mobilenumber)==0)
 		{
 			system("cls");
-			printf("\n Phone No.: %s",s.phonenumber);
+			printf("\n mobile No.: %s",s.mobilenumber);
 			printf("\n Name: %s",s.name);
 			printf("\n Current amount: %f",s.amount);
 			printf("\n");

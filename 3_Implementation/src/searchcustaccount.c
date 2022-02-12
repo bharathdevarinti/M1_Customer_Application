@@ -22,13 +22,13 @@ void searchcustaccount()
 		if(strcmp(s.accountnumber,accountnumber)==0)
 		{	system("cls");
 			printf(" Record Found ");
-			printf("\n\naccountnumber: %s\nName: %s\nAmount: Rs.%0.2f\n",s.accountnumber,s.name,s.amount);
+			printf("\n\naccountnumber: %s\nName: %s\nAmount: Rs.%0.2f\n%s\nStreet: ",s.accountnumber,s.name,s.amount,s.street);
 			
 			break;
 		}
 		else 
 		{	system("cls");
-			printf("Requested Phone Number Not found in our database");
+			printf("Requested mobile Number Not found in our database");
 		}
 	}
 	getch();

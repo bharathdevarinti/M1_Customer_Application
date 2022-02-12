@@ -3,8 +3,8 @@
 #include<ctype.h>
 #include<windows.h>
 #include<stdlib.h>
-#include"addrecords.h"
-void addrecords()
+#include"addcustaccount.h"
+void addcustaccount()
 {
 	FILE *f;
 	f=fopen("c:/file.ojs","ab+");
@@ -18,9 +18,9 @@ void addrecords()
 	while(1)
 	{
 		system("cls");
-		printf("\n Enter phone number:");
-		scanf("%4s",&s.phonenumber);
-	/**	if (sizeof(&s.phonenumber)!=10)
+		printf("\n Enter Mobile number:");
+		scanf("%4s",&s.mobilenumber);
+	/**	if (sizeof(&s.mobilenumber)!=10)
 	{
 		printf("Mobile Numebr length should be 10 digits.");
 			fclose(f);
@@ -29,13 +29,15 @@ void addrecords()
 			getch();
 	}**/
 		printf("\n Enter name:");
-		//fflush(stdin);
 		scanf("%4s",&s.name);
-		
+		printf("\n Account Number:");
+		scanf("%d",&s.accountnumber);
 		printf("\n Enter amount:");
 		scanf("%f",&s.amount);
+		printf("\n Enter Street:");
+		scanf("%s",&s.street);
 		fwrite(&s,sizeof(s),1,f);
-		//fflush(stdin);
+		
 		system("cls");
 		printf("1 record successfully added");
 		printf("\n Press esc key to exit, any other key to add other record:");

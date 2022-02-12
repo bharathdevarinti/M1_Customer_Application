@@ -80,11 +80,8 @@
 			main();
 		case '3':
 			system("cls");
-			//delay(700);
-			//textcolor(RED);
-			//gotoxy(25,25);
-			//cprintf("\nA PROJECT BY BIDUR & SUJAN");
-			//delay(1500);
+			
+			
 			exit(1);
 	  }
 	  return 0;

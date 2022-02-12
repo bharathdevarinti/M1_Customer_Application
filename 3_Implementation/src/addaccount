@@ -4,7 +4,7 @@
 #include<windows.h>
 #include<stdlib.h>
 #include"addrecords.h"
-void addaccount()
+void addrecords()
 {
 	FILE *f;
 	f=fopen("c:/file.ojs","ab+");
@@ -29,15 +29,15 @@ void addaccount()
 			getch();
 	}**/
 		printf("\n Enter name:");
-		
+		//fflush(stdin);
 		scanf("%4s",&s.name);
 		
 		printf("\n Enter amount:");
 		scanf("%f",&s.amount);
 		fwrite(&s,sizeof(s),1,f);
-		
+		//fflush(stdin);
 		system("cls");
-		printf("1 account successfully added");
+		printf("1 record successfully added");
 		printf("\n Press esc key to exit, any other key to add other record:");
 		char test;
 		test=getche();

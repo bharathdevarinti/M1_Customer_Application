@@ -1,0 +1,12 @@
+
+# TEST PLAN
+
+## Table no : High level test plan
+
+| **Test ID** | **Keys**|**Description**    |**Expected O/P** | **Actual O/P** | Execution Status |
+|-------------|---------|----------------   |-----------------|----------------|------------------|
+|  TID 1      |A        | Adding New Records| SUCCESS         | SUCCESS        | PASS	       |
+|  TID 2      |P        | Payment Record    | SUCCESS         | SUCCESS        | PASS	       |
+|  TID 3      |S        | search Record     | SUCCESS         | SUCCESS        | PASS	       |
+|  TID 4      |B        | Balance of payment| SUCCESS         | SUCCESS        | PASS	       |
+|  TID 5      |E        | Exit              | SUCCESS         | SUCCESS        | PASS	       |

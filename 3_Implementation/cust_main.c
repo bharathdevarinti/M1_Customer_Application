@@ -208,7 +208,7 @@
 	   printf("    New balance    :%.2f\n",customer.newbalance);
 	   printf("    Payment date   :%d/%d/%d\n\n",customer.lastpayment.month,customer.lastpayment.day,customer.lastpayment.year);
 	   printf("    Account status :");
-	  // textcolor(128+RED);
+	  
 	   switch(customer.acct_type)
 	      {
 	      case 'C':
@@ -223,6 +223,6 @@
 	      default:
 		 printf("ERROR\\n\n");
 	      }
-	     // textcolor(WHITE);
+	    
 	      return;
 	   }

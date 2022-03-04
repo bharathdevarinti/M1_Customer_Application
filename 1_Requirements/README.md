@@ -6,7 +6,7 @@ I have added Add customer details, View existing customer details in the code et
 
 ## Research :-
 
-Customer Billing System Project is a simple console application designed to demonstrate the practical use of C programming language and its features as wells as to generate an application which can be used in any departmental store, shops, cafes etc. for billing to the customer.
+Customer Billing System Project is a simple console application designed to demonstrate the practical use of C programming language and its features as wells as to generate an application which can be used in any departmental store, shops, cafes etc. for billing to the customer. Billing system is the process by which a business bills and invoices customers. Billing systems often include payment software that automates the process of collecting payments, sending out recurring invoices, expense tracking, and invoice tracking.
 
 ## Requirements :-
 # High Level Requirements 
@@ -15,9 +15,10 @@ Customer Billing System Project is a simple console application designed to demo
 | ID | Description | Category | 
 | ----- | ----- | ------- | 
 |HLR01|Adding new records|technical|  
-|HLR02|List of customer records|technical|
+|HLR02|List of records|technical|
 |HLR03|Payment|technical|
-|HLR04|Exit|technical|   
+|HLR04|Invoice|technical|
+|HLR05|Exit|technical|   
 
 # LOW LEVEL REQUIREMENTS:-
 | ID | Description |
